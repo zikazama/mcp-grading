@@ -50,7 +50,7 @@ Masuk ke folder `mcp-grading` dan install dependencies:
 ```bash
 cd mcp-grading
 npm install
-npm start
+npm start:http
 ```
 
 ### 3. Akses Aplikasi
