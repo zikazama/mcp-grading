@@ -1,0 +1,15 @@
+{
+  "mcpServers": {
+    "mcp-grading-stdio": {
+      "command": "npm",
+      "args": ["start"],
+      "cwd": "./mcp-grading",
+      "env": {
+        "NODE_ENV": "development"
+      }
+    },
+    "mcp-grading-http": {
+      "url": "http://localhost:3001/sse"
+    }
+  }
+} 
